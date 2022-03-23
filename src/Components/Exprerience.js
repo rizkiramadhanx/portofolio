@@ -28,11 +28,11 @@ const Exprience = () => {
             <img
               src={items.image}
               alt="logo"
-              className="w-auto max-h-14"
+              className="w-auto max-h-14 rounded-md"
               ey={i}
             />
           </div>
-          <div className="">
+          <div>
             <div className="font-bold">{items.name}</div>
             <div className="text-sm">{items.location}</div>
             <div className="text-sm font-bold">{items.time}</div>
